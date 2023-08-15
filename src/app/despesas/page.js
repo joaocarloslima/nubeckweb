@@ -1,12 +1,12 @@
 import NavBar from "@/components/NavBar";
 
-export default function Home() {
+export default function Despesas() {
   return (
     <>
-      <NavBar />
+      <NavBar active={"despesas"} />
 
       <main className="bg-slate-900 m-20 p-12">
-        <h2>Home</h2>
+        <h2>Despesas</h2>
       </main>
     </>
 
